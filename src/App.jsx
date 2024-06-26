@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 
+
 import MyButton from './Components/1_myButton';
 import AddStyle from './Components/2_AddStyle';
 import ProductList from './Components/3_ProductsList';
 import Conditionalrendering from './Components/4_ConditionalRendering';
-import TicTacToe from './Components/5_TicTacToe';
+import TicTacToe from './Components/5_TicTacToe';;
+import Props from './Components/Props';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +18,9 @@ function App() {
      {/* <AddStyle/> */}
      {/* <ProductList/> */}
      {/* <Conditionalrendering/> */}
-     <TicTacToe/>
+     {/* <TicTacToe/> */}
+     <Props/>
+     
 
 
 
